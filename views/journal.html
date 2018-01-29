@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>Journal Entry:</h1>
+<form method="POST" action="/journal/" id="journalForm">
+  <textArea id="journalEntry" name="journalEntry" col="15" rows="10">
+  </textArea>
+  <input id="journalSubmit" type="submit" value="Submit"></input>
+</form>
+{% endblock %}

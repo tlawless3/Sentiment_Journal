@@ -1,0 +1,16 @@
+
+#journalEntry {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#journalForm{
+  display: flex;
+  flex-direction: column;
+}
+
+#journalSubmit{
+  width: 100px;
+  text-align: left;
+  margin-left: 5%;
+}
